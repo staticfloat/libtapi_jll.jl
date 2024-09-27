@@ -8,7 +8,6 @@ name = "libtapi"
 platform = "x86_64-linux-gnu"
 lazy = "false"
 src_version = "1300.6.5"
-products = []
 
     [[builds.licenses]]
     license_text = """==============================================================================\ntapi License\n==============================================================================\nUniversity of Illinois/NCSA\nOpen Source License\n\nCopyright (c) 2011-2016 by the contributors listed in CREDITS.TXT\nAll rights reserved.\n\nDeveloped by:\n\n    LLVM Team\n\n    University of Illinois at Urbana-Champaign\n\n    http://llvm.org\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal with\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\n    * Redistributions of source code must retain the above copyright notice,\n      this list of conditions and the following disclaimers.\n\n    * Redistributions in binary form must reproduce the above copyright notice,\n      this list of conditions and the following disclaimers in the\n      documentation and/or other materials provided with the distribution.\n\n    * Neither the names of the LLVM Team, University of Illinois at\n      Urbana-Champaign, nor the names of its contributors may be used to\n      endorse or promote products derived from this Software without specific\n      prior written permission.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nCONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE\nSOFTWARE.\n\n==============================================================================\nThe lld software contains code written by third parties.  Such software will\nhave its own individual LICENSE.TXT file in the directory in which it appears.\nThis file will describe the copyrights, license, and restrictions which apply\nto that code.\n\nThe disclaimer of warranty in the University of Illinois Open Source License\napplies to all code in the lld Distribution, and nothing in any of the\nother licenses gives permission to use the names of the LLVM Team or the\nUniversity of Illinois to endorse or promote products derived from this\nSoftware.\n\nThe following pieces of software have additional or alternate copyrights,\nlicenses, and/or restrictions:\n\nProgram             Directory\n-------             ---------\n<none yet>\n"""
@@ -27,35 +26,42 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:6de36aad0c1663de9563f899948bffcc98b49920"
+    treehash = "sha1:401992401b55902b96f9c3177cb57fe1a71b2828"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:367675ae781c50e25940dd5145da0d562e8d55f129419a06ca8c5b0e3bc1e702"
+        tarball_hash = "sha256:7db02944f6319f917105b690c305de5ff4b8fbbd2c3bac1d50bbaae3b6701f30"
         url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.0-GCC/libtapi-build_log-v1300.6.0-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:7f5fb3157495e265ef01befd34d9400bc7eb77f8"
+    treehash = "sha1:aceb0046da625af07d188451070181b620494cd9"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:5b827afd73efad1f9e2828b08ba3cad5ef96565c2a8b8cb8ad17b980f601203e"
+        tarball_hash = "sha256:275ec569edd3f43a4a932b5dcf775c9bd146da9508dc1f09e9132c6486bc6f0f"
         url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.0-GCC/libtapi-extract_log-v1300.6.0-x86_64-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    deps = ["Zlib_jll.libz"]
+    name = "libtapi"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libtapi.so.12git"
+    type = "library"
+    path = "lib/libtapi.so.12git"
 
     [[builds.sources]]
     treehash = "sha1:b8c5ac40267aa5f6004dd38cc2b2cd84f2d9d555"
     url = "https://github.com/tpoechtrager/apple-libtapi"
 
     [builds.artifact]
-    treehash = "sha1:ed6992fe3c1ee619936d14cc99dcb1741d3cdd97"
+    treehash = "sha1:b3da8eb47b6d4a68b8d38abcf4b314ae543cfef2"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:5cd0be7e695ed44f206fd290b2e03dd3e28cc40f084a2b79e5db17b6911725e0"
+        tarball_hash = "sha256:a4eb3f784ef2cafd0ec007c76e1b5e7955dc84220b1bbdbc91848c7d5994ad12"
         url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.0-GCC/libtapi-v1300.6.0-x86_64-linux-gnu.tar.gz"
 [[builds]]
 name = "libtapi"
 platform = "aarch64-linux-gnu"
 lazy = "false"
 src_version = "1300.6.5"
-products = []
 
     [[builds.licenses]]
     license_text = """==============================================================================\ntapi License\n==============================================================================\nUniversity of Illinois/NCSA\nOpen Source License\n\nCopyright (c) 2011-2016 by the contributors listed in CREDITS.TXT\nAll rights reserved.\n\nDeveloped by:\n\n    LLVM Team\n\n    University of Illinois at Urbana-Champaign\n\n    http://llvm.org\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal with\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\n    * Redistributions of source code must retain the above copyright notice,\n      this list of conditions and the following disclaimers.\n\n    * Redistributions in binary form must reproduce the above copyright notice,\n      this list of conditions and the following disclaimers in the\n      documentation and/or other materials provided with the distribution.\n\n    * Neither the names of the LLVM Team, University of Illinois at\n      Urbana-Champaign, nor the names of its contributors may be used to\n      endorse or promote products derived from this Software without specific\n      prior written permission.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nCONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE\nSOFTWARE.\n\n==============================================================================\nThe lld software contains code written by third parties.  Such software will\nhave its own individual LICENSE.TXT file in the directory in which it appears.\nThis file will describe the copyrights, license, and restrictions which apply\nto that code.\n\nThe disclaimer of warranty in the University of Illinois Open Source License\napplies to all code in the lld Distribution, and nothing in any of the\nother licenses gives permission to use the names of the LLVM Team or the\nUniversity of Illinois to endorse or promote products derived from this\nSoftware.\n\nThe following pieces of software have additional or alternate copyrights,\nlicenses, and/or restrictions:\n\nProgram             Directory\n-------             ---------\n<none yet>\n"""
@@ -74,26 +80,34 @@ products = []
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:bd7d0c1b9465df4291c37c5ee9f7c3e60a5011f7"
+    treehash = "sha1:3fea2722fef66e5ac78b9b2cbe6d29859cfd7bc7"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:8b861944649eff04cb9cf3237d31e57d287407af88403e7415028a4d1fb75ea6"
+        tarball_hash = "sha256:f3594359c649138ede81c589b0c276b3c5435fb8fc32ef4bc910b8830602bc00"
         url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.0-GCC/libtapi-build_log-v1300.6.0-aarch64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:5d66c6886288ff461c7a7431884ae51a96705951"
+    treehash = "sha1:06bdaf2fb2b9464b59c2cf015fa5128b0dfcbcdf"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:acf80d0d7f9b7eb650433c8e42cf98f78d387f339f2c722145bd552e43447186"
+        tarball_hash = "sha256:0e2cd49cd00a471de6f663a45a5cab67bce7c53923ac5663d113baee4e6e8765"
         url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.0-GCC/libtapi-extract_log-v1300.6.0-aarch64-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    deps = []
+    name = "libtapi"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libtapi.so.12git"
+    type = "library"
+    path = "lib/libtapi.so.12git"
 
     [[builds.sources]]
     treehash = "sha1:b8c5ac40267aa5f6004dd38cc2b2cd84f2d9d555"
     url = "https://github.com/tpoechtrager/apple-libtapi"
 
     [builds.artifact]
-    treehash = "sha1:f03c9898cad70f2ffc86a74b5d7648ae16ec629f"
+    treehash = "sha1:32c319320804078b95ae565e61d2a5d96d6376bb"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:48bbb8efc88d20b8db5d2dfdb46482077834368143d339c21a55456818e4d9f0"
+        tarball_hash = "sha256:7131c82ad2c184148ca782e085e1df975aff98461b7faad78711928a8cd110c5"
         url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.0-GCC/libtapi-v1300.6.0-aarch64-linux-gnu.tar.gz"
