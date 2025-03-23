@@ -26,17 +26,17 @@ src_version = "1300.6.5"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:86d1345a8fe5d47949d5e9e20e5ac60cc5aad434"
+    treehash = "sha1:bd5165eb8e88f26df9c3c2a280256aa1dce762b7"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:9c73af9d4b7fc9ecd169580a0e5c7995b37d452e5b558af67a4e262fb353e555"
+        tarball_hash = "sha256:308cb6b7427c0df4559f044dbadab87ea4cd7005888d5126dd02b5e882bb2b3a"
         url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.1/libtapi-build_log-v1300.6.1-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:1b2a64119d73046d5d3acb17f5ef54891fada6e5"
+    treehash = "sha1:3bddf6360487c91a0a56b27a5ac3e52d7ee838d3"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:f4f63682016d772f24aff8db66d4199760357859f2ea78444a4231881ddc9994"
+        tarball_hash = "sha256:9c58d103559614f5f5ffd5611a9c9d189c266c0f4977eedd3c5e7dd2370bf436"
         url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.1/libtapi-extract_log-v1300.6.1-x86_64-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -55,7 +55,7 @@ src_version = "1300.6.5"
     treehash = "sha1:095cc28343d46e23103a7803bdd1dd28a026d13d"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:e9f7f0b422d606bfe7cec08e5aaceee6921c83754d6ae20d9a2a6ce3c1ea836f"
+        tarball_hash = "sha256:b37f51c6676da58371915f47633cba84be2c74b6af220865d88d341e1e6ada4f"
         url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.1/libtapi-v1300.6.1-x86_64-linux-gnu.tar.gz"
 [[builds]]
 name = "libtapi"
@@ -80,17 +80,17 @@ src_version = "1300.6.5"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:210c3badb63a1be28445f5b63f7d5dddc1dffd9b"
+    treehash = "sha1:80b781248bbac8504be705c8069fc84a57da0fbc"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:dec6f24b27c7e35f27e8a45c5ef0ed1aa9a93a2a29a3408f09ce43970b76ac41"
+        tarball_hash = "sha256:3f4ec0added2518f84b6f77736d9f09a7d49664ed29f664a18be672ad3dd06fc"
         url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.1/libtapi-build_log-v1300.6.1-aarch64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:c6e63934f8a3e580775fd532d2dc52d5b5e3be59"
+    treehash = "sha1:9f9c9d1f16f706161c3d05ebb41f4c70445387e7"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:b17152241044aa656018bd604dbb855a239d9fb96e83ee665647e3638b848cb7"
+        tarball_hash = "sha256:3040f4e16795493cd57d8091229b3e6b5de14a40950595334b6611df4c3ef57f"
         url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.1/libtapi-extract_log-v1300.6.1-aarch64-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -109,5 +109,5 @@ src_version = "1300.6.5"
     treehash = "sha1:32c319320804078b95ae565e61d2a5d96d6376bb"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:ffe0dfae6901f3af4d0789ef65462d155ed6ab9e05b5ea0077793dd6009c5797"
+        tarball_hash = "sha256:592014ccc4bfc17b77ef40d4ee5cf76000a3e3935b90604bab88f3433d045165"
         url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.1/libtapi-v1300.6.1-aarch64-linux-gnu.tar.gz"
