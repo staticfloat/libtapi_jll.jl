@@ -5,56 +5,27 @@ libc = "glibc"
 os = "linux"
 
     [[libtapi.download]]
-    sha256 = "0201a70385e672959ed1eaa42de8db69a2b545aa1b75beeece20c20469669155"
+    sha256 = "02590dee07bd7e24085e3de61cd7a372cbb0aedcad9f5b97a3b5bade9a77f4df"
     url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.1/libtapi-v1300.6.1-x86_64-linux-gnu.tar.gz"
-[[libtapi]]
-arch = "aarch64"
-git-tree-sha1 = "2577c3977b12e152819801e401c8daedda79a814"
-libc = "glibc"
-os = "linux"
-
-    [[libtapi.download]]
-    sha256 = "d8fd82c1d6af2d18d81afcccb5896ea431ef6ed38ee17b6d1b7bac65e598eb45"
-    url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.1/libtapi-v1300.6.1-aarch64-linux-gnu.tar.gz"
 
 [[libtapi-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "904b3db02f746b24f8c14dbe6f6b4b73c837914c"
+git-tree-sha1 = "c18426706f65e5b62008389561949973b18a54e3"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[libtapi-build_log.download]]
-    sha256 = "946656fb39eb0017c54014a606abe12552464f254254a86e3ff02ff3135d756d"
+    sha256 = "775039e254559583df10cb398a278ea6f5cdb95714241609aac6c135bcd45ee0"
     url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.1/libtapi-build_log-v1300.6.1-x86_64-linux-gnu.tar.gz"
-[[libtapi-build_log]]
-arch = "aarch64"
-git-tree-sha1 = "2ced1c2b051e8265ce95a877455e84bf8ebf9e68"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[libtapi-build_log.download]]
-    sha256 = "3d72d0c28074557f427e6ebd899db1a236bedcf1913800ff55b83a8acce0e7c4"
-    url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.1/libtapi-build_log-v1300.6.1-aarch64-linux-gnu.tar.gz"
 
 [[libtapi-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "ef69c2bb5ffdaacbdb2f24867cce7ea5e349744f"
+git-tree-sha1 = "16a12409a77a12495dfc4ba30992493121df1d2b"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[libtapi-extract_log.download]]
-    sha256 = "6abbc8d756509bab0397a02ea6bd14e2459429a8186f34a7e9365ab35b08a362"
+    sha256 = "f2c5d53aaff57786da099a302208308f17c271ab9f71ed164b7019c4142cbb06"
     url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.1/libtapi-extract_log-v1300.6.1-x86_64-linux-gnu.tar.gz"
-[[libtapi-extract_log]]
-arch = "aarch64"
-git-tree-sha1 = "a9d5e1023d3888341379390509e79fa2779bd3cc"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[libtapi-extract_log.download]]
-    sha256 = "943419905121a89758a93e1c2898306504514f1dcd7fb71329b6d3f86cf83fba"
-    url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.1/libtapi-extract_log-v1300.6.1-aarch64-linux-gnu.tar.gz"
