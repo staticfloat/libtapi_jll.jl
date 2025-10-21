@@ -26,17 +26,17 @@ src_version = "1300.6.5"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:abf5eaa01d2a84c0841a9a415e9754969977f96f"
+    treehash = "sha1:451091a71e3ccbc853d515076ddbdec2a410b821"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:189846c72ae126316ab94ad3d62e8f1ecadf0c2244448e3f0b9baa172e6dbe11"
+        tarball_hash = "sha256:b5555e483e4e96723578edcfea432175541e264ee0d9ec305a87b6c3ddd4cdf5"
         url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.1-GCCBootstrap-x86_64-linux-gnu/libtapi-build_log-v1300.6.1-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:26e9323d4c86083dd8fb33dd9753914884989e74"
+    treehash = "sha1:37402a29c68ae6a6c2a6aefef726ccebf5c6335a"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:15974be39baf9498cd4116fb50a24e137833a6202092f418292f8c0f855f1172"
+        tarball_hash = "sha256:b5c38dd8d80a5fd3af422ebc0ce2572c2f719c6a68cb8f1b3d62319a013bf9d4"
         url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.1-GCCBootstrap-x86_64-linux-gnu/libtapi-extract_log-v1300.6.1-x86_64-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -52,8 +52,8 @@ src_version = "1300.6.5"
     url = "https://github.com/tpoechtrager/apple-libtapi"
 
     [builds.artifact]
-    treehash = "sha1:ec7be5d9b201730d06cf788a3e9fefa3c41873a6"
+    treehash = "sha1:9b08fd4d96507b1abc4b2045282aa5fbce9ad847"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:9f0be88ec25ffd7b46a3500767d7b4998bf07fa11fd03b3795ed75a56d4350e1"
+        tarball_hash = "sha256:3579ccf4d8aff1d1ecc453b566d38d3516968bf00276cb3f342a6ff118adb966"
         url = "https://github.com/staticfloat/libtapi_jll.jl/releases/download/v1300.6.1-GCCBootstrap-x86_64-linux-gnu/libtapi-v1300.6.1-x86_64-linux-gnu.tar.gz"
